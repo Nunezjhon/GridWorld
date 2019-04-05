@@ -6,7 +6,7 @@ To run this program:
  2. run ./a.out 
  3. driver.cpp tests gridworld.h with a 5x5 grid
 
-SUMMARY:
+<h3> SUMMARY: </h3>
 
 Welcome to GridWorld where everybody is a number and lives in a square (unless of course they are dead).                
 
@@ -27,7 +27,7 @@ However, once created there are a number of operations that can be performed on 
 
 Operations:  once a world is created, there are various operations that can be performed.  
 
-  Birth 
+  <h3> Birth </h3>
 	by calling this function we are asking for a new person to be created and to place that person in district (row, col).
 	If the given row/col corresponds to a valid district, this function does the following:
 	creates a new person
@@ -36,32 +36,32 @@ Operations:  once a world is created, there are various operations that can be p
 	communicates the assigned ID to the caller via the reference parameter id.
 	Returns true (for "success").
 
-  Death 
+  <h3> Death </h3>
 	if alive, person represented by id  is removed from its current district and the entire world.  
 	Data structures updated accordingly.
 
-  Move
+  <h3> Move </h3>
 	if given person is alive, and specified target-row
 	and column are valid, person is moved to specified district and
      	data structures updated accordingly.
   
-  Population
+  <h3> Population </h3>
 	simply returns the  total number of (living) people in the entire world/grid.
 	or
 	simply returns the  total number of (living) people in district specified by (row,col).  
 	If row/col does not correspond to a valid district, zero is returned.
 
-  WhereIs
+   <h3> WhereIs </h3>
 	if personID represents a currently living person, the row and column where that person currently 
 	lives is reported via reference parameters row and col and true is returned.  
 
 	If personID does not correspond to a currently living person, false is returned
 
-  Members
+  <h3> Members </h3>
 	creates and populates an integer vector with a snapshot of the current residents of district specified by (row, col).  
 	The vector is returned as a pointer.
 
-	If there is no such district (row,col), a vector is still created returned, but it is empty.
+	If there is no such district (row,col), a vector is still returned, but it is empty.
 
   num_rows/num_cols
 	returns the number of row (or columns) in the world.  
