@@ -12,7 +12,7 @@ Welcome to GridWorld where everybody is a number and lives in a square (unless o
 
 The World:  The world is kind of boring.  It is an RxC grid (rows and columns).  
 Each entry on the grid is called a district and is referred to by its row r and column c   
-We’ll sometimes refer to such a district as Dr,c.
+Weâ€™ll sometimes refer to such a district as Dr,c.
 
 The People:  Then there are the people; each person is uniquely identified by an integer ID (like a social security number).   
 Person IDs start at zero.  Each living person resides in one (and only one) of the districts.
