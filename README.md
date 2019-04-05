@@ -1,6 +1,6 @@
-Created by: Jhon Nunez
-University of Illinois at Chicago 
-To run this program:
+<h4> Created by: Jhon Nunez </h4>
+<h4> University of Illinois at Chicago </h4>
+<h4> To run this program: </h4>
 
  1. run g++ driver.cpp
  2. run ./a.out 
