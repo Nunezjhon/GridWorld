@@ -37,33 +37,33 @@ Operations:  once a world is created, there are various operations that can be p
 	Returns true (for "success").
 
   <h3> Death </h3>
-	if alive, person represented by id  is removed from its current district and the entire world.  
+	If alive, person represented by id  is removed from its current district and the entire world.  
 	Data structures updated accordingly.
 
   <h3> Move </h3>
-	if given person is alive, and specified target-row
+	If given person is alive, and specified target-row
 	and column are valid, person is moved to specified district and
      	data structures updated accordingly.
   
   <h3> Population </h3>
-	simply returns the  total number of (living) people in the entire world/grid.
+	Simply returns the  total number of (living) people in the entire world/grid.
 	or
 	simply returns the  total number of (living) people in district specified by (row,col).  
 	If row/col does not correspond to a valid district, zero is returned.
 
    <h3> WhereIs </h3>
-	if personID represents a currently living person, the row and column where that person currently 
+	If personID represents a currently living person, the row and column where that person currently 
 	lives is reported via reference parameters row and col and true is returned.  
 
 	If personID does not correspond to a currently living person, false is returned
 
   <h3> Members </h3>
-	creates and populates an integer vector with a snapshot of the current residents of district specified by (row, col).  
+	Creates and populates an integer vector with a snapshot of the current residents of district specified by (row, col).  
 	The vector is returned as a pointer.
 
 	If there is no such district (row,col), a vector is still returned, but it is empty.
 
   num_rows/num_cols
-	returns the number of row (or columns) in the world.  
+	Returns the number of row (or columns) in the world.  
 
 
